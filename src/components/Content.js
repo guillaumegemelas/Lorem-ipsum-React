@@ -6,9 +6,8 @@ const Content = (props) => {
   return (
     <div className="greyBloc">
       {" "}
-      <Title></Title>
-      {props.title}
-      <Description></Description> {props.description}
+      <Title title={props.title} />
+      <Description description={props.description} />
     </div>
   );
 };

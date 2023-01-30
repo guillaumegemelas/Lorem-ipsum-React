@@ -5,7 +5,7 @@ import Content from "./components/Content";
 
 function App() {
   return (
-    <div className="container">
+    <div className="Container">
       <Content
         title="Lorem"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
